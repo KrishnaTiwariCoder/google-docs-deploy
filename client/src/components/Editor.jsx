@@ -9,7 +9,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 const Editor = () => {
-  const serverURL = "http://localhost:8080";
+  const serverURL = "https://google-docs-deploy.onrender.com/";
   const [quillServerState, setQuillServerState] = useState();
   const [socketServerState, setSocketServerState] = useState(null);
   const { id } = useParams();
